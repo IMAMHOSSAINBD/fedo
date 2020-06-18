@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fedo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!--header area goes here-->
+<header>
+    <div class="top-header">
+        <div class="container">
+            <ul class="nav ml-5">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">SAVE MORE ON APP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sell on Daraz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CUSTOMER CARE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Track my order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SIGNUP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ভাষা</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="fixed">
+        <div class="container">
+            <div class="download__company-app">
+                <img src="img/d_app.png" alt="download_app" height="40" width="170" class="img-fluid">
+            </div>
+            <div class="row">
+                <div class="col-sm-2">
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" height="65" width="160"></a>
+                </div>
+                <div class="col-sm-7">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search in Daraz" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                   <div class="navigation__col">
+                        <div class="seller-become-btn">
+                            <a href="#" class="btn seller-registratin-btn">become a seller</a>
+                        </div>
+                        <div class="navigation_bar">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">
+                                            <button type="button" class="btn btn-primary cartI" data-toggle="modal" data-target="#cart"><i class="fas fa-2x fa-shopping-cart my-cart-icon"></i><span class="total-count"></span></button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                   </div>
+                </div>
+            </div>
+         
+        </div>
+    </nav>
+</header>
+
+
+<section class="seller__registration">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11 m-auto">
+                <h4 class="seller-registration-heading"><span>Seller Registration</span></h4>
+                
+                <div class="seller-reg-text">
+                    <p><span>seller registration</span></p>
+                    <p>*** please fill up the form in english</p>
+                </div>
+                <form class="seller__registration-form">
+                    <div class="form-group row">
+                      <label for="email" class="col-sm-4 col-form-label">Email</label>
+                      <div class="col-sm-8">
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-sm-4 col-form-label">first name</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="firstname">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="lastname" class="col-sm-4 col-form-label">last name</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="lastname">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="store-name" class="col-sm-4 col-form-label">store/business name</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="store-name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="address1" class="col-sm-4 col-form-label">address 1</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="address1">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="address2" class="col-sm-4 col-form-label">address 2</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="address2">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="country" class="col-sm-4 col-form-label">country</label>
+                        <div class="col-sm-8">
+                            <select class="form-control form-control-sm" name="" id="country">
+                                <option value="">bangladesh</option>
+                                <option value="">india</option>
+                                <option value="">china</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="city" class="col-sm-4 col-form-label">city/town</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="city">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="state" class="col-sm-4 col-form-label">state/country</label>
+                        <div class="col-sm-8">
+                            <select class="form-control form-control-sm" name="" id="state">
+                                <option value="">bangladesh</option>
+                                <option value="">india</option>
+                                <option value="">china</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="phone" class="col-sm-4 col-form-label">business phone</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="phone">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="store" class="col-sm-4 col-form-label">store/office</label>
+                        <div class="col-sm-8">
+                            <select class="form-control form-control-sm" name="" id="store">
+                                <option value="">store</option>
+                                <option value="">office</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="marketname" class="col-sm-4 col-form-label">market/shopping mall/building name</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="marketname">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="Wholesaler" class="col-sm-4 col-form-label">Wholesaler</label>
+                        <div class="col-sm-8">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Wholesaler">
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="manufacturer" class="col-sm-4 col-form-label">Manufacturer</label>
+                        <div class="col-sm-8">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="manufacturer">
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="supplier" class="col-sm-4 col-form-label">Supplier</label>
+                        <div class="col-sm-8">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="supplier">
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="password" class="col-sm-4 col-form-label">password</label>
+                        <div class="col-sm-8">
+                          <input type="password" class="form-control" id="password">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="confirmpassword" class="col-sm-4 col-form-label">confirm password</label>
+                        <div class="col-sm-8">
+                          <input type="password" class="form-control" id="confirmpassword">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                     
+                        <div class="col-sm-8">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="agree">
+                                <label class="form-check-label" for="agree">
+                                  agree, terms and condition
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn btn-register">register</button>
+                
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer aria goes here-->
+<footer class="pt-5 pb-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <ul>
+                    <li class="mb-2"><h6>Get to Know Us</h6></li>
+                    <li><a href="#">About Banggood.com</a></li>
+                    <li><a href="#">Guarantees & Return Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Intellectual Property Claims</a></li>
+                </ul>
+                <h6 class="mb-2">Get the latest news from Banggood</h6>
+                <form action="#">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="basic-addon3">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon3"><i class="far fa-paper-plane"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <ul>
+                    <li class="mb-2"><h6>Payment & Shipping</h6></li>
+                    <li><a href="#">Payment Methods</a></li>
+                    <li><a href="#">BGpay Instruction</a></li>
+                    <li><a href="#">Shipping Guide</a></li>
+                    <li><a href="#">Locations We Ship To</a></li>
+                    <li><a href="#">Estimated Delivery Time</a></li>
+                </ul>
+                <ul>
+                    <li class="mb-2"><h6>Partnership Programs</h6></li>
+                    <li><a href="#">Drop shipping</a></li>
+                    <li><a href="#">Review Club</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">Wholesale Program</a></li>
+                    <li><a href="#">Fashion Blogger Program</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <div class="app-icon">
+                    <h6 class="mb-2">Download App</h6>
+                    <p>
+                        <a href="#"><i class="fab fa-apple mt-2"></i></a>
+                        <a href="#"><i class="fab fa-android mt-2"></i></a>
+                    </p>
+                </div>
+                <ul>
+                    <li class="mb-2 mt-3"><h6>Follow Us</h6></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+                <div class="f-c">
+                    <p>&copy;2006-2020 Banggood</p>
+                    <p>Terms  Privacy  Specialized Affairs</p>
+                </div>
+            </div>
+        </div>
+        <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i class="fas fa-arrow-up"></i></span></a>
+    </div>
+</footer>
+
+<!-- Modal for shopping cart-->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <table class="show-cart table">
+
+                </table>
+                <div>Total price: $<span class="total-cart"></span></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Order now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--optional javascript-->
+
+<!--<script src="js/jquery-3.4.1.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script type='text/javascript' src="js/bootstrap.min.js"></script>
+<script src="js/timer.js"></script>
+<script type='text/javascript' src="js/bootstrap.min.js"></script>
+<script src="js/shopping-cart.js"></script>
+
+
+
+
+<script>
+    // jquery for to top
+
+    $(document).ready(function(){
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+
+        $('#back-to-top').tooltip('show');
+
+    });
+
+
+    // navbar fixed js goes here
+
+    $(document).ready(function() {
+
+        $(window).scroll(function () {
+
+            console.log($(window).scrollTop());
+
+            if ($(window).scrollTop() > 2000) {
+                $('.fixed').addClass('fixed-top');
+            }
+
+            if ($(window).scrollTop() < 551) {
+                $('.fixed').removeClass('fixed-top');
+            }
+        });
+    });
+
+
+</script>
+
+
+
+</body>
+</html>

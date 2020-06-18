@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fedo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--header area goes here-->
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <ul class="nav ml-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">SAVE MORE ON APP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sell on Daraz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CUSTOMER CARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Track my order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SIGNUP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ভাষা</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="fixed">
+            <div class="container">
+                <div class="download__company-app">
+                    <img src="img/d_app.png" alt="download_app" height="40" width="170" class="img-fluid">
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" height="65"
+                                width="160"></a>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search in Daraz"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="navigation__col">
+                            <div class="seller-become-btn">
+                                <a href="#" class="btn seller-registratin-btn">become a seller</a>
+                            </div>
+                            <div class="navigation_bar">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">
+                                                <button type="button" class="btn btn-primary cartI" data-toggle="modal"
+                                                    data-target="#cart"><i
+                                                        class="fas fa-2x fa-shopping-cart my-cart-icon"></i><span
+                                                        class="total-count"></span></button>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="menu__page-links">
+       <div class="container">
+        <p class="page-link-content">
+            <a href="">Home</a>
+            <span> / </span>
+            <span>My account</span>
+        </p>
+       </div>
+    </div>
+
+    <section class="user-account-content">
+        <div class="container">
+            <div class="user__content">
+                <div class="username-content">
+                    <p><img src="img/default-user.png" class="img-fluid" alt=""></p>
+                    <p>
+                        <span>Hello!</span>
+                        <span>John</span>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-dashboard-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab" aria-controls="v-pills-dashboard" aria-selected="true">dashboard</a>
+                        <a class="nav-link" href="#v-pills-seller">seller center</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                        <a class="nav-link" id="v-pills-orders-tab" data-toggle="pill" href="#v-pills-orders" role="tab" aria-controls="v-pills-orders" aria-selected="false">orders</a>
+                        <a class="nav-link" id="v-pills-addresses-tab" data-toggle="pill" href="#v-pills-addresses" role="tab" aria-controls="v-pills-addresses" aria-selected="false">addresses</a>
+                        <a class="nav-link" id="v-pills-followings-tab" data-toggle="pill" href="#v-pills-followings" role="tab" aria-controls="v-pills-followings" aria-selected="false">followings</a>
+                        <a class="nav-link" id="v-pills-support-tab" data-toggle="pill" href="#v-pills-support" role="tab" aria-controls="v-pills-support" aria-selected="false">support tickets</a>
+                        <a class="nav-link" id="v-pills-inquiries-tab" data-toggle="pill" href="#v-pills-inquiries" role="tab" aria-controls="v-pills-inquiries" aria-selected="false">inquiries</a>
+                        <a class="nav-link" href="#v-pills-dashboard">dashboard</a>
+                        <a class="nav-link" id="v-pills-details-tab" data-toggle="pill" href="#v-pills-details" role="tab" aria-controls="v-pills-details" aria-selected="false">account details</a>
+                        <a class="nav-link" href="#v-pills-logout">logout</a>
+                      </div>
+                    </div>
+                    <div class="col-9">
+                      <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-dashboard" role="tabpanel" aria-labelledby="v-pills-dashboard-tab">
+                            <div class="nav-pills-text">
+                                <p>
+                                    Hello info@gmail.com (not info@gmail.com? <a href="">Log out</a>)
+                                   
+                                </p>
+                                <p>From your account dashboard you can view your <a href="">recent orders</a>, <a href="">manage your shipping and billing addresses</a>, and <a href="">edit your password and account details</a>.</p>
+                                <h6>Recent quotes</h6>
+                                <p>no quote request available</p>
+                                
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="nav-pills-text">
+                                <p>No message</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-orders" role="tabpanel" aria-labelledby="v-pills-orders-tab">
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>order</th>
+                                    <th>date</th>
+                                    <th>status</th>
+                                    <th>total</th>
+                                    <th>actions</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>#32245</td>
+                                    <td>May 12 2020</td>
+                                    <td>pending payment</td>
+                                    <td>
+                                        <span><i class="icofont-taka"></i> 2,263.20 for 6 items</span>
+                                    </td>
+                                    <td>
+                                       <a href="" class="btn btn-order">Pay</a>
+                                       <a href="" class="btn btn-order">view</a>
+                                       <a href="" class="btn btn-order">cancel</a>
+                                    </td>
+                                  </tr>
+                                  
+                                </tbody>
+                              </table>
+
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-addresses" role="tabpanel" aria-labelledby="v-pills-addresses-tab">
+                            <div class="addresses-content">
+                                <div class="billing__address" id="address-bill">
+                                    <h5>biling address</h5>
+                                    <p class="addresses-name">john</p>
+                                    <p>gec</p>
+                                    <p>chittagong</p>
+                                    <p>Chattogram</p>
+                                    <p>0000</p>
+                                    <a class="edit-btn">edit</a>
+                                </div>
+
+                                <div class="shipping__address">
+                                    <h5>shipping address</h5>
+                                    <p class="addresses-name">john</p>
+                                    <p>gec</p>
+                                    <p>chittagong</p>
+                                    <p>Chattogram</p>
+                                    <p>0000</p>
+                                    <a class="edit-btn">edit</a>
+                                </div>
+                            </div>
+
+                            <div class="edited__address">
+                                <h5>Billing address</h5>
+                                <form>
+                                    <div class="form-group">
+                                      <label for="firstname">first name</label>
+                                      <input type="text" class="form-control" id="firstname">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lastname">last name</label>
+                                        <input type="text" class="form-control" id="lastname">
+                                      </div>
+                                    <div class="form-group">
+                                      <label for="country">country</label>
+                                      <select class="form-control form-control-sm" name="" id="country">
+                                         <option value="">bangladesh</option>
+                                         <option value="">india</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="billing-address">billing address</label>
+                                        <input type="text" class="form-control" id="billing-address">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="town">town / city</label>
+                                        <input type="text" class="form-control" id="town">
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="district">district</label>
+                                        <select class="form-control form-control-sm" name="" id="district">
+                                           <option value="">Chattogram</option>
+                                           <option value="">rajshahi</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="postcode">postcode / zip</label>
+                                        <input type="text" class="form-control" id="postcode">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="phone">phone</label>
+                                        <input type="text" class="form-control" id="phone">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="email">email</label>
+                                        <input type="email" class="form-control" id="email">
+                                      </div>
+                                    
+                                    <button type="submit" class="btn btn-save-address">save address</button>
+                                  </form>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-followings" role="tabpanel" aria-labelledby="v-pills-followings-tab">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>store</th>
+                                        <th>email</th>
+                                        <th>actions</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>status</th>
+                                        <th>ticket(s)</th>
+                                        <th>category</th>
+                                        <th>priority</th>
+                                        <th>actions</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-inquiries" role="tabpanel" aria-labelledby="v-pills-inquiries-tab">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>query</th>
+                                        <th>product</th>
+                                        <th>store</th>
+                                        <th>additional info</th>
+                                        <th>actions</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-details" role="tabpanel" aria-labelledby="v-pills-details-tab">
+                            <form class="account-details-form">
+                                <div class="form-group">
+                                    <label for="first-name">first name</label>
+                                    <input type="text" class="form-control" id="first-name">
+                                    
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="last-name">last name</label>
+                                    <input type="text" class="form-control" id="last-name">
+                                    
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="display-name">display name</label>
+                                    <input type="text" class="form-control" id="display-name">
+                                    <small id="emailHelp" class="form-text text-muted">This will be how your name will be displayed in the account section and in reviews</small>
+                                  </div>
+                                <div class="form-group">
+                                  <label for="email-address">Email address</label>
+                                  <input type="email" class="form-control" id="email-address">
+                                </div>
+                                <h5>Password change</h5>
+                                <div class="form-group">
+                                  <label for="password">current password(leave blank to leave unchanged)</label>
+                                  <input type="password" class="form-control" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-password">new password(leave blank to leave unchanged)</label>
+                                    <input type="password" class="form-control" id="new-password">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="confirm-password">confirm new password</label>
+                                    <input type="password" class="form-control" id="confirm-password">
+                                  </div>
+                              
+                                <button type="submit" class="btn btn-changes">save changes</button>
+                              </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <!--footer aria goes here-->
+    <footer class="pt-5 pb-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="mb-2">
+                            <h6>Get to Know Us</h6>
+                        </li>
+                        <li><a href="#">About Banggood.com</a></li>
+                        <li><a href="#">Guarantees & Return Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Intellectual Property Claims</a></li>
+                    </ul>
+                    <h6 class="mb-2">Get the latest news from Banggood</h6>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address"
+                                aria-label="Recipient's username" aria-describedby="basic-addon3">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon3"><i
+                                        class="far fa-paper-plane"></i></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="mb-2">
+                            <h6>Payment & Shipping</h6>
+                        </li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">BGpay Instruction</a></li>
+                        <li><a href="#">Shipping Guide</a></li>
+                        <li><a href="#">Locations We Ship To</a></li>
+                        <li><a href="#">Estimated Delivery Time</a></li>
+                    </ul>
+                    <ul>
+                        <li class="mb-2">
+                            <h6>Partnership Programs</h6>
+                        </li>
+                        <li><a href="#">Drop shipping</a></li>
+                        <li><a href="#">Review Club</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                        <li><a href="#">Wholesale Program</a></li>
+                        <li><a href="#">Fashion Blogger Program</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="app-icon">
+                        <h6 class="mb-2">Download App</h6>
+                        <p>
+                            <a href="#"><i class="fab fa-apple mt-2"></i></a>
+                            <a href="#"><i class="fab fa-android mt-2"></i></a>
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="mb-2 mt-3">
+                            <h6>Follow Us</h6>
+                        </li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                    <div class="f-c">
+                        <p>&copy;2006-2020 Banggood</p>
+                        <p>Terms Privacy Specialized Affairs</p>
+                    </div>
+                </div>
+            </div>
+            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title=""
+                data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i
+                        class="fas fa-arrow-up"></i></span></a>
+        </div>
+    </footer>
+
+
+    <!--optional javascript-->
+
+    <!--<script src="js/jquery-3.4.1.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script src="js/ckeditor.js"></script>
+    <script src="js/shopping-cart.js"></script>
+
+ 
+
+
+    <script type="text/javascript">
+        // jquery for to top
+
+    
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('#back-to-top').tooltip('show');
+
+            $('.edit-btn').click(function() {
+                $('.edited__address').toggle();
+            })
+
+        });
+
+
+        // navbar fixed js goes here
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+
+                console.log($(window).scrollTop());
+
+                if ($(window).scrollTop() > 2000) {
+                    $('.fixed').addClass('fixed-top');
+                }
+
+                if ($(window).scrollTop() < 551) {
+                    $('.fixed').removeClass('fixed-top');
+                }
+            });
+        });
+
+
+        $('#myTab a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show');
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>

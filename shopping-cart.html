@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fedo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!--header area goes here-->
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <ul class="nav ml-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">SAVE MORE ON APP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sell on Daraz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CUSTOMER CARE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Track my order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SIGNUP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ভাষা</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="fixed">
+            <div class="container">
+                <div class="download__company-app">
+                    <img src="img/d_app.png" alt="download_app" height="40" width="170" class="img-fluid">
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" height="65"
+                                width="160"></a>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Search in Daraz"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-search"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="navigation__col">
+                            <div class="seller-become-btn">
+                                <a href="#" class="btn seller-registratin-btn">become a seller</a>
+                            </div>
+                            <div class="navigation_bar">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="#">
+                                                <button type="button" class="btn btn-primary cartI" data-toggle="modal"
+                                                    data-target="#cart"><i
+                                                        class="fas fa-2x fa-shopping-cart my-cart-icon"></i><span
+                                                        class="total-count"></span></button>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="menu__page-links">
+       <div class="container">
+        <p class="page-link-content">
+            <a href="">Home</a>
+            <span> / </span>
+            <span>My account</span>
+        </p>
+       </div>
+    </div>
+
+
+    <section class="shopping-cart">
+        <div class="container">
+            <div class="shopping-cart-content">
+                <h3 class="text-center">shopping cart</h3>
+                <h6>Your cart items</h6>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>price</th>
+                            <th>quantity</th>
+                            <th>total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="cart-product-details">
+                                    <div class="cart-product-img">
+                                        <img src="img/5-100x100.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="cart-product-name">
+                                        <p>
+                                            <span><i class="icofont-check-alt"></i></span>
+                                            <span><a href="">exclusive design baby tops- 1-3 year</a></span>
+                                        </p>
+                                        <p>
+                                            <span>store:</span>
+                                            <span><a href="">kids fashion house</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><i class="icofont-taka"></i> 368.00</td>
+
+                            <td class="product-count">
+                                <form action="#" class="count-inlineflex">
+                                    <div class="qtyminus">-</div>
+                                    <input type="text" name="quantity" value="1" class="qty">
+                                    <div class="qtyplus">+</div>
+                                </form>
+                            </td>
+                            <td><i class="icofont-taka"></i> 368.00</td>
+                            <td class="delete-cart"><i class="icofont-close-line"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="cart-content-button">
+                    <p><span><a href=""><i class="icofont-long-arrow-left"></i> back to shop</a></span></p>
+                    <p>
+                        <span><a href="">clear cart</a></span>
+                        <span><a href=""><i class="icofont-spinner"></i> update cart</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="checkout-section">
+        <div class="container">
+            <div class="checkout-content row">
+                <div class="coupon-discount col-md-4">
+                    <h5>coupon discount</h5>
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="coupon code">
+                        </div>
+                        <button type="submit" class="btn btn-apply-coupon checkout-btn">apply coupon</button>
+                    </form>
+                </div>
+
+                <div class="shipping-calc col-md-4">
+                    <h5>calculate shipping</h5>
+                    <form action="">
+                        <div class="form-group">
+                            <select name="" id="" class="form-control">
+                                <option value="">bangladesh</option>
+                                <option value="">india</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="" id="" class="form-control">
+                                <option value="">chattogram</option>
+                                <option value="">rajshahi</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="chittagong">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="000">
+                        </div>
+                        <button type="submit" class="btn btn-update-shipping checkout-btn">update</button>
+                    </form>
+                </div>
+
+                <div class="checkout-box col-md-4">
+                   <div class="checkout-box-content">
+                        <div>
+                            <p>subtotal</p>
+                            <p><i class="icofont-taka"></i> 3255</p>
+                        </div>
+                        <div>
+                            <p>
+                                <span>kids fashion</span>
+                                <span>house shipping</span>
+                            </p>
+                            <p>
+                                <span>local pickup</span>
+                                <span>shipping to chattogram</span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>card fee</p>
+                            <p><i class="icofont-taka"></i> 325</p>
+                        </div>
+                        <div>
+                            <p class="total-checkout">total</p>
+                            <p class="total-checkout-price"><i class="icofont-taka"></i> 2,263.20</p>
+                        </div>
+                   </div>
+
+                    <a href="" class="btn btn-lg btn-block btn-proceed-checkout">proceed to checkout</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    
+    
+    <!--footer aria goes here-->
+    <footer class="pt-5 pb-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="mb-2">
+                            <h6>Get to Know Us</h6>
+                        </li>
+                        <li><a href="#">About Banggood.com</a></li>
+                        <li><a href="#">Guarantees & Return Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Intellectual Property Claims</a></li>
+                    </ul>
+                    <h6 class="mb-2">Get the latest news from Banggood</h6>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address"
+                                aria-label="Recipient's username" aria-describedby="basic-addon3">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon3"><i
+                                        class="far fa-paper-plane"></i></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="mb-2">
+                            <h6>Payment & Shipping</h6>
+                        </li>
+                        <li><a href="#">Payment Methods</a></li>
+                        <li><a href="#">BGpay Instruction</a></li>
+                        <li><a href="#">Shipping Guide</a></li>
+                        <li><a href="#">Locations We Ship To</a></li>
+                        <li><a href="#">Estimated Delivery Time</a></li>
+                    </ul>
+                    <ul>
+                        <li class="mb-2">
+                            <h6>Partnership Programs</h6>
+                        </li>
+                        <li><a href="#">Drop shipping</a></li>
+                        <li><a href="#">Review Club</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                        <li><a href="#">Wholesale Program</a></li>
+                        <li><a href="#">Fashion Blogger Program</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="app-icon">
+                        <h6 class="mb-2">Download App</h6>
+                        <p>
+                            <a href="#"><i class="fab fa-apple mt-2"></i></a>
+                            <a href="#"><i class="fab fa-android mt-2"></i></a>
+                        </p>
+                    </div>
+                    <ul>
+                        <li class="mb-2 mt-3">
+                            <h6>Follow Us</h6>
+                        </li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                    </ul>
+                    <div class="f-c">
+                        <p>&copy;2006-2020 Banggood</p>
+                        <p>Terms Privacy Specialized Affairs</p>
+                    </div>
+                </div>
+            </div>
+            <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title=""
+                data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"><i
+                        class="fas fa-arrow-up"></i></span></a>
+        </div>
+    </footer>
+
+
+    <!--optional javascript-->
+
+    <!--<script src="js/jquery-3.4.1.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script src="js/ckeditor.js"></script>
+    <script src="js/shopping-cart.js"></script>
+
+ 
+
+
+    <script type="text/javascript">
+        // jquery for to top
+
+    
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+            $('#back-to-top').click(function () {
+                $('#back-to-top').tooltip('hide');
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+            $('#back-to-top').tooltip('show');
+
+            $('.edit-btn').click(function() {
+                $('.edited__address').toggle();
+            })
+
+        });
+
+
+        // navbar fixed js goes here
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+
+                console.log($(window).scrollTop());
+
+                if ($(window).scrollTop() > 2000) {
+                    $('.fixed').addClass('fixed-top');
+                }
+
+                if ($(window).scrollTop() < 551) {
+                    $('.fixed').removeClass('fixed-top');
+                }
+            });
+        });
+
+
+        $('#myTab a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show');
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
